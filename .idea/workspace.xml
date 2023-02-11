@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="973dc8ac-3503-4bc5-943e-d13643bb7f36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/Basics.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/CoroutineScopeBuilder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/JobExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/LightWeight.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/MultipleCoroutines.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter1_basics/1_BasicThreadWorkout.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter1_basics/2_BasicCoroutineWorkout.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter1_basics/3_BasicRunBlockingWorkout.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter2_coroutine_builders/1_AsyncCoroutineBuilders.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter2_coroutine_builders/2_LaunchCoroutineBuilders.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter2_coroutine_builders/3_RunBlockingCoroutineBuilders.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter3_coroutine_cancellation/1_CoroutingCancellation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/youtube/coroutine/course/chapter2_coroutine_builders/RunBlockingCoroutineBuildersKtTest.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="JUnit5 Test Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LHV937XWfvBYXhfVbDyc291MPB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/Users/karthik/IdeaProjects/kotlin-coroutines-learning/src/main/kotlin/youtube/coroutine/course/chapter2",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter2" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter1" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/basics" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="youtube.coroutine.course.chapter2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin._2_CoroutingCancellationUsingYieldKt">
+    <configuration name="RunBlockingCoroutineBuildersKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-coroutines-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="youtube.coroutine.course.chapter2_coroutine_builders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="youtube.coroutine.course.chapter2" />
+      <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter2_coroutine_builders.RunBlockingCoroutineBuildersKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunBlockingCoroutineBuildersKtTest.test the suspending fun using runBlocking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-coroutines-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="youtube.coroutine.course.chapter2_coroutine_builders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="youtube.coroutine.course.chapter2" />
+      <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter2_coroutine_builders.RunBlockingCoroutineBuildersKtTest" />
+      <option name="METHOD_NAME" value="test the suspending fun using runBlocking" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunBlockingCoroutineBuildersKtTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-coroutines-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="youtube.coroutine.course.chapter2_coroutine_builders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="youtube.coroutine.course.chapter2" />
+      <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter2_coroutine_builders.RunBlockingCoroutineBuildersKtTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_1_CoroutingCancellationUsingDelayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter3_coroutine_cancellation._1_CoroutingCancellationUsingDelayKt" />
+      <module name="kotlin-coroutines-learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_2_CoroutingCancellationUsingYieldKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter3_coroutine_cancellation._2_CoroutingCancellationUsingYieldKt" />
+      <module name="kotlin-coroutines-learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin._2_CoroutingCancellationUsingYieldKt" />
+        <item itemvalue="Kotlin._1_CoroutingCancellationUsingDelayKt" />
+        <item itemvalue="JUnit.RunBlockingCoroutineBuildersKtTest" />
+        <item itemvalue="JUnit.RunBlockingCoroutineBuildersKtTest.test" />
+        <item itemvalue="JUnit.RunBlockingCoroutineBuildersKtTest.test the suspending fun using runBlocking" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="973dc8ac-3503-4bc5-943e-d13643bb7f36" name="Changes" comment="" />
+      <created>1675527842494</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675527842494</updated>
+    </task>
+    <servers />
+  </component>
+</project>

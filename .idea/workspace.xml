@@ -5,31 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="973dc8ac-3503-4bc5-943e-d13643bb7f36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/Basics.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/CoroutineScopeBuilder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/JobExample.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/LightWeight.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/MultipleCoroutines.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter1_basics/1_BasicThreadWorkout.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter1_basics/2_BasicCoroutineWorkout.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter1_basics/3_BasicRunBlockingWorkout.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter2_coroutine_builders/1_AsyncCoroutineBuilders.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter2_coroutine_builders/2_LaunchCoroutineBuilders.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter2_coroutine_builders/3_RunBlockingCoroutineBuilders.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter3_coroutine_cancellation/1_CoroutingCancellation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/youtube/coroutine/course/chapter2_coroutine_builders/RunBlockingCoroutineBuildersKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter3/cancellation/3_CoroutingCancellationUsingCoroutineContext.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter3/exception_handling/1_CoroutingHandlingCancellationException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter3/exception_handling/2_CoroutingHandlingCancellationExceptionWithContext.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter3/timeouts/1_CoroutingTimeoutHandling.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter3/timeouts/2_CoroutingTimeoutHandling.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter3_coroutine_cancellation/1_CoroutingCancellationUsingDelay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter3/cancellation/1_CoroutingCancellationUsingDelay.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter3_coroutine_cancellation/2_CoroutingCancellationUsingYield.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter3/cancellation/2_CoroutingCancellationUsingYield.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +54,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/Users/karthik/IdeaProjects/kotlin-coroutines-learning/src/main/kotlin/youtube/coroutine/course/chapter2",
+    "last_opened_file_path": "/Users/karthik/IdeaProjects/kotlin-coroutines-learning/src/main/kotlin/youtube/coroutine/course/chapter3/timeouts",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -79,75 +62,53 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter3/timeouts" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter3/coroutine_exception_handling" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter3_coroutine_cancellation" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter2" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter1" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/basics" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter3_coroutine_cancellation/coroutine_cancellation" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="youtube.coroutine.course.chapter2" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._2_CoroutingCancellationUsingYieldKt">
-    <configuration name="RunBlockingCoroutineBuildersKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-coroutines-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="youtube.coroutine.course.chapter2_coroutine_builders.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="youtube.coroutine.course.chapter2" />
-      <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter2_coroutine_builders.RunBlockingCoroutineBuildersKtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunBlockingCoroutineBuildersKtTest.test the suspending fun using runBlocking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-coroutines-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="youtube.coroutine.course.chapter2_coroutine_builders.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="youtube.coroutine.course.chapter2" />
-      <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter2_coroutine_builders.RunBlockingCoroutineBuildersKtTest" />
-      <option name="METHOD_NAME" value="test the suspending fun using runBlocking" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunBlockingCoroutineBuildersKtTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-coroutines-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="youtube.coroutine.course.chapter2_coroutine_builders.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="youtube.coroutine.course.chapter2" />
-      <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter2_coroutine_builders.RunBlockingCoroutineBuildersKtTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_1_CoroutingCancellationUsingDelayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter3_coroutine_cancellation._1_CoroutingCancellationUsingDelayKt" />
+  <component name="RunManager" selected="Kotlin._2_CoroutingTimeoutHandlingKt">
+    <configuration name="_1_CoroutingHandlingCancellationExceptionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter3.exception_handling._1_CoroutingHandlingCancellationExceptionKt" />
       <module name="kotlin-coroutines-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2_CoroutingCancellationUsingYieldKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter3_coroutine_cancellation._2_CoroutingCancellationUsingYieldKt" />
+    <configuration name="_1_CoroutingTimeoutHandlingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter3.timeouts._1_CoroutingTimeoutHandlingKt" />
+      <module name="kotlin-coroutines-learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_2_CoroutingHandlingCancellationExceptionWithContextKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter3.exception_handling._2_CoroutingHandlingCancellationExceptionWithContextKt" />
+      <module name="kotlin-coroutines-learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_2_CoroutingTimeoutHandlingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter3.timeouts._2_CoroutingTimeoutHandlingKt" />
+      <module name="kotlin-coroutines-learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_3_CoroutingCancellationUsingCoroutineContextKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter3_coroutine_cancellation.coroutine_cancellation._3_CoroutingCancellationUsingCoroutineContextKt" />
       <module name="kotlin-coroutines-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin._2_CoroutingCancellationUsingYieldKt" />
-        <item itemvalue="Kotlin._1_CoroutingCancellationUsingDelayKt" />
-        <item itemvalue="JUnit.RunBlockingCoroutineBuildersKtTest" />
-        <item itemvalue="JUnit.RunBlockingCoroutineBuildersKtTest.test" />
-        <item itemvalue="JUnit.RunBlockingCoroutineBuildersKtTest.test the suspending fun using runBlocking" />
+        <item itemvalue="Kotlin._2_CoroutingTimeoutHandlingKt" />
+        <item itemvalue="Kotlin._1_CoroutingTimeoutHandlingKt" />
+        <item itemvalue="Kotlin._2_CoroutingHandlingCancellationExceptionWithContextKt" />
+        <item itemvalue="Kotlin._1_CoroutingHandlingCancellationExceptionKt" />
+        <item itemvalue="Kotlin._3_CoroutingCancellationUsingCoroutineContextKt" />
       </list>
     </recent_temporary>
   </component>

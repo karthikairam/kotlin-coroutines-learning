@@ -1,4 +1,4 @@
-package youtube.coroutine.course.chapter3_coroutine_cancellation
+package youtube.coroutine.course.chapter3.cancellation
 
 import kotlinx.coroutines.*
 

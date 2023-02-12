@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="973dc8ac-3503-4bc5-943e-d13643bb7f36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter5/CoroutineScopeAndContext.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/personal/flow/FlowSample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/personal/flow/FlowWithDifferentContext.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/personal/flow/IntermediateOperators.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/basics/Basics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/personal/basics/Basics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/basics/CoroutineScopeBuilder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/personal/basics/CoroutineScopeBuilder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/basics/JobExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/personal/basics/JobExample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/basics/LightWeight.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/personal/basics/LightWeight.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/basics/MultipleCoroutines.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/personal/basics/MultipleCoroutines.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter5/CoroutineScopeAndContext.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/youtube/coroutine/course/chapter5/CoroutineScopeAndContext.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +81,7 @@
       <recent name="youtube.coroutine.course.chapter2" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CoroutineScopeAndContextKt">
+  <component name="RunManager" selected="Kotlin.FlowWithDifferentContextKt">
     <configuration name="CoroutineScopeAndContextKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter5.CoroutineScopeAndContextKt" />
       <module name="kotlin-coroutines-learning" />
@@ -80,22 +89,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FlowWithDifferentContextKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.flow.FlowWithDifferentContextKt" />
+      <module name="kotlin-coroutines-learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntermediateOperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntermediateOperatorsKt" />
+      <module name="kotlin-coroutines-learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_1_SequentialExecutionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter4._1_SequentialExecutionKt" />
-      <module name="kotlin-coroutines-learning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_2_AsyncExecutionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter4._2_AsyncExecutionKt" />
-      <module name="kotlin-coroutines-learning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_2_CoroutingTimeoutHandlingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="youtube.coroutine.course.chapter3.timeouts._2_CoroutingTimeoutHandlingKt" />
       <module name="kotlin-coroutines-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FlowWithDifferentContextKt" />
+        <item itemvalue="Kotlin.IntermediateOperatorsKt" />
         <item itemvalue="Kotlin.CoroutineScopeAndContextKt" />
         <item itemvalue="Kotlin._3_LazyExecutionKt" />
         <item itemvalue="Kotlin._1_SequentialExecutionKt" />
-        <item itemvalue="Kotlin._2_AsyncExecutionKt" />
-        <item itemvalue="Kotlin._2_CoroutingTimeoutHandlingKt" />
       </list>
     </recent_temporary>
   </component>

@@ -1,4 +1,4 @@
-package basics
+package personal.basics
 
 import kotlinx.coroutines.*
 import java.util.concurrent.Callable

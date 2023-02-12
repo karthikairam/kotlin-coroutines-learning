@@ -5,7 +5,7 @@ import kotlin.coroutines.CoroutineContext
 
 @OptIn(DelicateCoroutinesApi::class)
 fun main() {
-
+    var threadLocal = ThreadLocal.withInitial { "test" }
     runBlocking {
         println("Coroutine program starts: ${Thread.currentThread().name}")
         println("Main scope: $this, context: $coroutineContext")
@@ -56,9 +56,18 @@ fun main() {
             processing(name = "C6", context = coroutineContext)
         }
 
-        launch(context = newFixedThreadPoolContext(4, "CustomPool")) {
-            processing(name = "C7", context = coroutineContext)
+        println("Thread Local: ${threadLocal.get()}")
+
+        newFixedThreadPoolContext(4, "CustomPool").use {
+            // We can add multiple context elements below. Note: All context elements are subtype of CoroutineContext
+            launch(context = Dispatchers.IO + threadLocal.asContextElement("modified")) {
+                println("Thread Local: ${threadLocal.get()}")
+                processing(name = "C7", context = coroutineContext)
+                coroutineContext.job
+            }
         }
+
+        // customPool.close() // Should be closed after using! Only applicable for "ExecutorCoroutineDispatcher" type
 
         println("Coroutine program ends: ${Thread.currentThread().name}")
     }
